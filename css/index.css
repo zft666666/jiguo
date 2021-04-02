@@ -1,0 +1,84 @@
+/* 广告栏 */
+.banner {
+  position: relative;
+  width: 1920px;
+  height: 300px;
+  margin: auto;
+  background: url(../images/css/img/original.jpg);
+  text-align: center;
+}
+.banner .count-down {
+  position: absolute;
+  top: 80px;
+  right: 650px;
+  color: white;
+}
+.banner .count-down p {
+  margin-bottom: 10px;
+}
+.banner .count-down p span {
+  background-color: #F6D299;
+}
+.banner .count-down .apply-for a {
+  display: inline-block;
+  padding: 20px 50px;
+  color: #fff;
+  background-color: #FE5341;
+  border-radius: 5px;
+}
+.lbt-title {
+  padding: 10px 0;
+}
+.lbt {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+.lbt .lbt-btnleft {
+  float: left;
+  margin-top: 35px;
+}
+.lbt .lbt-main {
+  float: left;
+}
+.lbt .lbt-main li {
+  margin-left: 10px;
+  float: left;
+}
+.lbt .lbt-main li img {
+  width: 270px;
+}
+.lbt .lbt-main li p {
+  margin-top: 10px;
+}
+.lbt .lbt-main li .p-red span {
+  color: #FE544B;
+  padding: 5px;
+  border: 1px solid #FE544B;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.lbt .lbt-main li .p-red2 {
+  font-size: 20px;
+}
+.lbt .lbt-main li .p-red2 span {
+  color: #FE544B;
+}
+.lbt .lbt-main li .p-red3 span {
+  color: #FE544B;
+}
+.lbt .lbt-main li .p-green span {
+  color: greenyellow;
+  padding: 5px;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.lbt .lbt-main li .p-green .p-green1 span {
+  color: greenyellow;
+}
+.lbt .lbt-btn-right {
+  float: left;
+  margin-top: 35px;
+  margin-left: 5px;
+}
