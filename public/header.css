@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  width: 1200px;
+  margin: auto;
+}
+/* 头部样式 */
+.nav {
+  overflow: hidden;
+}
+.nav .logo {
+  float: left;
+  width: 266px;
+  height: 104px;
+}
+.nav .list {
+  float: left;
+}
+.nav .list li {
+  float: left;
+  margin-left: 60px;
+  line-height: 104px;
+  font-size: 20px;
+}
+.nav .list li a {
+  color: #3D464B;
+}
+.nav .list li a:hover {
+  color: #FE6541;
+}
+.nav .register {
+  float: right;
+}
+.nav .register img {
+  vertical-align: middle;
+}
+.nav .register a {
+  display: inline-block;
+  width: 60px;
+  height: 40px;
+  margin-top: 30px;
+  text-align: center;
+  line-height: 40px;
+  background-color: white;
+  border: 1px solid #FE6541;
+  color: #FE6541;
+  outline: none;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+/* 尾部样式 */
+footer {
+  width: 100vw;
+  height: 320px;
+  padding: 50px 0;
+  background-color: #505050;
+}
+footer .footer {
+  overflow: hidden;
+}
+footer .footer .code {
+  float: left;
+}
+footer .footer .logo2 {
+  float: left;
+  margin-left: 20px;
+}
+footer .footer .logo2 p {
+  color: #969C90;
+  margin-top: 10px;
+}
+footer .footer .ftr-list {
+  float: left;
+}
+footer .footer .ftr-list dl {
+  float: left;
+  margin-left: 50px;
+}
+footer .footer .ftr-list dl dt {
+  color: #fff;
+  margin-bottom: 30px;
+}
+footer .footer .ftr-list dl dd {
+  margin-bottom: 5px;
+}
+footer .footer .ftr-list dl dd a {
+  color: #969C90;
+}
+footer .copyright {
+  text-align: center;
+  margin-top: 80px;
+  color: #969C90;
+}
