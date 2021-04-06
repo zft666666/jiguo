@@ -1,0 +1,84 @@
+.nav .list li:nth-of-type(3) a {
+  color: #FE6541;
+}
+.big-subnav {
+  width: 100vw;
+  background-color: #F7F7F7;
+}
+.big-subnav .subnav {
+  padding: 10px 0;
+  color: #B9BCC0;
+  overflow: hidden;
+}
+.big-subnav .subnav li {
+  float: left;
+  margin-right: 5px;
+}
+.big-subnav .subnav li a {
+  color: #B9BCC0;
+}
+.big-subnav .subnav li a:hover {
+  color: #FE6541;
+}
+main {
+  width: 100vw;
+  background-color: #F7F7F7;
+}
+main .main {
+  border-radius: 10px;
+}
+main .main .main-left {
+  float: left;
+  width: 750px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #B9BCC0;
+  border-radius: 10px;
+}
+main .main .main-left .main-left-title {
+  padding: 20px;
+  border-bottom: 1px solid #B9BCC0;
+}
+main .main .main-left .main-left-title p {
+  margin-top: 20px;
+}
+main .main .main-left .main-left-title p span {
+  float: right;
+}
+main .main .main-left .main-content {
+  padding: 50px;
+}
+main .main .main-left .main-content li h5 {
+  text-align: center;
+}
+main .main .main-left .main-content li a {
+  color: #95948F;
+}
+main .main .main-left .main-content li:nth-of-type(5) {
+  margin-top: 80px;
+}
+main .main .main-right {
+  background-color: #fff;
+  float: right;
+  border: 1px solid #B9BCC0;
+  border-radius: 10px;
+}
+main .main .main-right .live {
+  text-align: center;
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-right: 1px solid #B9BCC0;
+}
+main .main .main-right .live img {
+  margin-top: 30px;
+}
+main .main .main-right .share {
+  text-align: center;
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+main .main .main-right .share img {
+  margin-top: 35px;
+}

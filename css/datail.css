@@ -1,0 +1,263 @@
+.datail_main_top {
+  width: 100%;
+  height: 103px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+}
+.datail_main_top .datail_center {
+  display: flex;
+  align-items: center;
+}
+.datail_main_top .datail_center .datail_nav_list_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.datail_main_top .datail_center .datail_nav_list_left span {
+  height: 64px;
+  width: 4px;
+  display: flex;
+  background-color: #fc5133;
+}
+.datail_main_top .datail_center .datail_nav_list_left p {
+  width: 48px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.datail_main_top .datail_center .datail_nav_list {
+  width: 948px;
+  display: flex;
+  justify-content: space-around;
+}
+.datail_main_top .datail_center .datail_nav_list li {
+  width: 56px;
+  height: 60px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.datail_main_top .datail_center .datail_nav_list li img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 7px;
+}
+.datail_main_top .datail_center .datail_nav_list .active {
+  border-bottom: 2px solid #fc5133;
+}
+.datail-main-content {
+  margin-top: 23px;
+}
+.datail-main-content .datail-main-content-left {
+  width: 700px;
+  margin-right: 30px;
+}
+.datail-main-content .datail-main-content-left .product-presentation {
+  display: flex;
+  align-items: center;
+}
+.datail-main-content .datail-main-content-left .product-presentation span {
+  width: 4px;
+  height: 30px;
+  background-color: #fc5133;
+}
+.datail-main-content .datail-main-content-left .product-presentation .presentation {
+  margin-left: 10px;
+}
+.datail-main-content .datail-main-content-left .p {
+  margin: 24px 0;
+  color: #fc5133;
+  font-weight: 700;
+}
+.datail-main-content .datail-main-content-left .p2 {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.datail-main-content .datail-main-content-left .datail-img {
+  margin: 39px 0;
+}
+.datail-main-content .datail-main-content-left h4 {
+  color: #477fdc;
+  margin: 30px 0;
+}
+.datail-main-content .datail-main-content-left .datail-img2 {
+  margin-top: 30px;
+}
+.datail-main-content .datail-main-content-left .activity-introduction {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.datail-main-content .datail-main-content-left .activity-introduction span {
+  width: 4px;
+  height: 20px;
+  background-color: #fc5133;
+}
+.datail-main-content .datail-main-content-left .activity-introduction .introduction {
+  line-height: 1.5em;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.datail-main-content .datail-main-content-left .worning {
+  margin: 30px 0;
+}
+.datail-main-content .datail-main-content-left .worning .worning-p {
+  color: #5e7bc1;
+  font-size: 14px;
+}
+.datail-main-content .datail-main-content-left .active-process {
+  margin-bottom: 30px;
+}
+.datail-main-content .datail-main-content-left .active-process .process {
+  font-size: 16px;
+  color: #fc5133;
+}
+.datail-main-content .datail-main-content-left .active-process li {
+  font-size: 14px;
+  margin-left: 13px;
+}
+.datail-main-content .datail-main-content-left .active-process li b {
+  font-weight: 700;
+}
+.datail-main-content .datail-main-content-left .datail-bottom .hot-try {
+  height: 70px;
+  line-height: 70px;
+}
+.datail-main-content .datail-main-content-left .datail-bottom .hot-try p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #444d54;
+}
+.datail-main-content .datail-main-content-left .datail-bottom .hot-try .more a {
+  color: #fc5133;
+}
+.datail-main-content .datail-main-content-left .datail-bottom .hot-try .more ::after {
+  content: '';
+}
+.datail-main-content .datail-main-content-left .datail-bottom .hot-try-list li {
+  position: relative;
+  float: left;
+  height: 290px;
+  width: 215px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background-color: #fff;
+  margin-right: 33px ;
+  margin-bottom: 33px;
+  text-align: center;
+}
+.datail-main-content .datail-main-content-left .datail-bottom .hot-try-list li img {
+  width: 100%;
+  border-radius: 7px 7px 0 0;
+}
+.datail-main-content .datail-main-content-left .datail-bottom .hot-try-list li h4 {
+  text-align: center;
+  padding: 5px 10px;
+  color: #444d54;
+  margin: 10px 0;
+}
+.datail-main-content .datail-main-content-left .datail-bottom .hot-try-list li div:nth-of-type(1) {
+  text-align: center;
+  margin-top: 10px;
+  height: 30px;
+}
+.datail-main-content .datail-main-content-left .datail-bottom .hot-try-list li div:nth-of-type(1) span {
+  text-align: center;
+  font-size: 10px;
+  border: 1px solid #ccc;
+  color: #ccc;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.datail-main-content .datail-main-content-left .datail-bottom .hot-try-list li p {
+  font-size: 14px;
+  text-align: center;
+  margin: 5px auto;
+}
+.datail-main-content .datail-main-content-left .datail-bottom .hot-try-list li p em {
+  color: #fc5133;
+}
+.datail-main-content .datail-main-content-left .datail-bottom .hot-try-list li .link {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.datail-main-content .datail-main-content-left .datail-bottom .hot-try-list li .link a {
+  font-size: 13px;
+  text-align: center;
+}
+.datail-main-content .datail-main-content-left .datail-bottom .hot-try-list li b {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+  padding: 2px 3px;
+  border-radius: 0 5px 0 5px;
+  color: #fff;
+  background-color: #ff5544;
+}
+.datail-main-content .datail-main-content-right {
+  width: 270px;
+}
+.datail-main-content .datail-main-content-right .datail-main-content-right-top {
+  margin: 20px 0;
+  display: flex;
+}
+.datail-main-content .datail-main-content-right .datail-main-content-right-top span {
+  width: 4px;
+  height: 20px;
+  background-color: #fc5133;
+  margin-right: 20px;
+}
+.datail-main-content .datail-main-content-right .prise {
+  color: #fc5133;
+  margin: 30px 0;
+}
+.datail-main-content .datail-main-content-right .datail-buy {
+  text-align: center;
+}
+.datail-main-content .datail-main-content-right .datail-buy .buy {
+  width: 100%;
+  height: 40px;
+  background-color: #fc5133;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+}
+.datail-main-content .datail-main-content-right .datail-buy em {
+  font-size: 12px;
+  color: #95999c;
+}
+.datail-main-content .datail-main-content-right .first-time {
+  font-size: 14px;
+  color: #95999c;
+}
+.datail-main-content .datail-main-content-right h4 {
+  margin: 10px 0;
+}
+.datail-main-content .datail-main-content-right .ol {
+  margin-left: 15px;
+  color: #95999c;
+}
+.datail-main-content .datail-main-content-right .guanzhu {
+  margin: 50px 0 30px 0;
+}
+.datail-main-content .datail-main-content-right .datail-img5 {
+  display: flex;
+}
+.datail-main-content .datail-main-content-right .datail-img5 img {
+  width: 40%;
+}
+.datail-main-content .datail-main-content-right .datail-img5 p {
+  width: 60%;
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  color: #95999c;
+}

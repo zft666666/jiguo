@@ -1,0 +1,148 @@
+body {
+  overflow-x: hidden;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  width: 1000px;
+  margin: auto;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* 头部样式 */
+.big-nav {
+  width: 100vw;
+  border-bottom: 1px solid #D9D9D9;
+}
+.big-nav .nav {
+  overflow: hidden;
+}
+.big-nav .nav .logo {
+  float: left;
+  width: 266px;
+  height: 104px;
+}
+.big-nav .nav .logo img {
+  height: 80px;
+  margin-top: 10px;
+}
+.big-nav .nav .list {
+  float: left;
+}
+.big-nav .nav .list li {
+  float: left;
+  margin-left: 60px;
+  line-height: 104px;
+  font-size: 20px;
+}
+.big-nav .nav .list li a {
+  color: #3D464B;
+}
+.big-nav .nav .register {
+  float: right;
+}
+.big-nav .nav .register img {
+  vertical-align: middle;
+}
+.big-nav .nav .register a {
+  display: inline-block;
+  width: 60px;
+  height: 40px;
+  margin-top: 30px;
+  text-align: center;
+  line-height: 40px;
+  background-color: white;
+  border: 1px solid #FE6541;
+  color: #FE6541;
+  outline: none;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+/* 尾部样式 */
+footer {
+  width: 100vw;
+  height: 350px;
+  padding: 50px 0;
+  background-color: #505050;
+}
+footer .footer {
+  overflow: hidden;
+}
+footer .footer .code {
+  float: left;
+}
+footer .footer .logo2 {
+  float: left;
+  margin-left: 20px;
+}
+footer .footer .logo2 p {
+  color: #969C90;
+  margin-top: 10px;
+}
+footer .footer .ftr-list {
+  float: left;
+}
+footer .footer .ftr-list dl {
+  float: left;
+  margin-left: 20px;
+}
+footer .footer .ftr-list dl dt {
+  color: #fff;
+  margin-bottom: 30px;
+}
+footer .footer .ftr-list dl dt a {
+  color: #fff;
+}
+footer .footer .ftr-list dl dd {
+  margin-bottom: 5px;
+}
+footer .footer .ftr-list dl dd a {
+  color: #969C90;
+}
+footer .copyright {
+  text-align: center;
+  margin-top: 80px;
+  color: #969C90;
+}
+/* 图片闪烁动画 */
+@keyframes transparency {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+/* 返回顶部样式 */
+.gotop {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background-color: #E7E7E7;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+}
+.clicks {
+  text-align: center;
+  color: coral;
+}
