@@ -173,7 +173,7 @@ document.documentElement.onkeyup = function(e){
 
 //获取短信验证码
 let btn =document.querySelector(".btn");
-let num =10;
+let num =60;
 let timer =null;
 
 btn.onclick= function() {
@@ -185,7 +185,7 @@ btn.onclick= function() {
             clearInterval(timer)
             this.innerText="点击重新获取验证码"
             this.disabled =false;
-            num =10;
+            num =60;
         }
     },1000)
 }

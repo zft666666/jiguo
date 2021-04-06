@@ -1,19 +1,23 @@
 .nav .list li:nth-of-type(3) a {
   color: #FE6541;
 }
-.subnav {
+.big-subnav {
+  width: 100vw;
+  background-color: #F7F7F7;
+}
+.big-subnav .subnav {
   padding: 10px 0;
   color: #B9BCC0;
   overflow: hidden;
 }
-.subnav li {
+.big-subnav .subnav li {
   float: left;
   margin-right: 5px;
 }
-.subnav li a {
+.big-subnav .subnav li a {
   color: #B9BCC0;
 }
-.subnav li a:hover {
+.big-subnav .subnav li a:hover {
   color: #FE6541;
 }
 main {
@@ -76,5 +80,5 @@ main .main .main-right .share {
   height: 100px;
 }
 main .main .main-right .share img {
-  margin-top: 30px;
+  margin-top: 35px;
 }
