@@ -1,0 +1,193 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?fr98my');
+    src:  url('../fonts/icomoon.eot?fr98my#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?fr98my') format('truetype'),
+      url('../fonts/icomoon.woff?fr98my') format('woff'),
+      url('../fonts/icomoon.svg?fr98my#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+@col:#fe5339;
+@col2:#97989d;
+@col3:#73ca62;
+.Y-title {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 400;
+    margin: 46px auto;
+}
+
+.underline {
+    border-bottom: 1px solid #ccc;
+    .Y-tab {
+        width: 340px;
+        margin: 0 auto;
+        div{
+            width: 170px;
+            text-align: center;
+            padding: 20px 0;
+            color: @col2;
+            cursor: pointer;
+        }
+        .active {
+            border-bottom: 4px solid @col;
+        }
+    }
+}
+
+.free-list {    
+    .free-list_ {        
+        width: 640px;
+        margin: 0 auto;
+        li{
+            float: left;
+            width: 160px;
+            padding: 15px 0;
+            text-align: center;
+            color: @col2;
+            a.active{
+                color: #000;
+            }
+        }
+       
+    }
+}
+
+.Y-content {
+    padding: 24px 0;
+    background-color: #f7f7f7;
+    .dz-all{
+        li{
+            position: relative;
+            float: left;
+            height: 290px;
+            width: 215px;
+            border: 1px solid #ccc;
+            border-radius: 7px;
+            background-color: #fff;
+            margin-right: 33px ;
+            margin-bottom: 33px;
+            text-align: center;
+
+            img{
+                width: 100%;
+                border-radius: 7px 7px 0 0;
+            }
+            h4{
+                text-align: center;
+                padding: 5px 10px;
+            }
+    
+            div:nth-of-type(1){
+                text-align: center;
+                margin-top: 10px;
+                height: 30px;
+                span{
+                    text-align: center;
+                    font-size: 10px;
+                    border: 1px solid #ccc;
+                    color: #ccc;
+                    margin: 0 5px;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                }
+            }
+            p{
+                font-size: 14px;
+                text-align: center;
+                margin: 5px auto;
+                em{
+                    color: @col;
+                }
+            }
+            .link{
+                text-align: center;
+                margin-bottom: 20px;
+                a{
+                    font-size: 13px;
+                    text-align: center;
+                }
+            }
+            
+            b{
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 12px;
+                padding: 2px 3px;
+                border-radius: 0 5px 0 5px;
+                color: #fff;
+                background-color: #ff5544;
+            }
+            .ccc_ {
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 12px;
+                padding: 2px 3px;
+                border-radius: 0 5px 0 5px;
+                color: #c19d5f;
+                background-color: #f5f0c6;
+            }
+
+        }
+        
+        :nth-child(2n) {
+            div:nth-of-type(1){
+                span{
+                    border-color: @col3;
+                    // background-color: #fe5339;
+                }
+            }
+           .link{
+               a{
+                color: @col3;
+               }
+           }
+        }
+        :nth-child(4n) {
+            margin-right: 0;
+            div:nth-of-type(1){
+                span{
+                    border-color: @col;
+                    color: @col;
+                }
+            }
+            div:nth-of-type(2){
+               a{
+                   color: @col;
+               }
+            }
+        }
+        
+    }
+}
+
+// 加载更多
+.more{
+    text-align: center;
+    margin: 20px auto;
+    a{
+        color: @col;        
+    }
+    a::before{
+        font-family: 'icomoon';
+        content: '\e931';
+        margin-right: 7px;
+    }
+    // img{
+    //     display: none;
+    // }
+}
+
+.no-more {
+    text-align: center;
+    margin: 20px auto;
+    a{
+        color: @col2;
+    }
+}

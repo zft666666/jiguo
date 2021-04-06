@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?fr98my');
+  src: url('../fonts/icomoon.eot?fr98my#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?fr98my') format('truetype'), url('../fonts/icomoon.woff?fr98my') format('woff'), url('../fonts/icomoon.svg?fr98my#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.Y-title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 400;
+  margin: 46px auto;
+}
+.underline {
+  border-bottom: 1px solid #ccc;
+}
+.underline .Y-tab {
+  width: 340px;
+  margin: 0 auto;
+}
+.underline .Y-tab div {
+  width: 170px;
+  text-align: center;
+  padding: 20px 0;
+  color: #97989d;
+  cursor: pointer;
+}
+.underline .Y-tab .active {
+  border-bottom: 4px solid #fe5339;
+}
+.free-list .free-list_ {
+  width: 640px;
+  margin: 0 auto;
+}
+.free-list .free-list_ li {
+  float: left;
+  width: 160px;
+  padding: 15px 0;
+  text-align: center;
+  color: #97989d;
+}
+.free-list .free-list_ li a.active {
+  color: #000;
+}
+.Y-content {
+  padding: 24px 0;
+  background-color: #f7f7f7;
+}
+.Y-content .dz-all li {
+  position: relative;
+  float: left;
+  height: 290px;
+  width: 215px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background-color: #fff;
+  margin-right: 33px ;
+  margin-bottom: 33px;
+  text-align: center;
+}
+.Y-content .dz-all li img {
+  width: 100%;
+  border-radius: 7px 7px 0 0;
+}
+.Y-content .dz-all li h4 {
+  text-align: center;
+  padding: 5px 10px;
+}
+.Y-content .dz-all li div:nth-of-type(1) {
+  text-align: center;
+  margin-top: 10px;
+  height: 30px;
+}
+.Y-content .dz-all li div:nth-of-type(1) span {
+  text-align: center;
+  font-size: 10px;
+  border: 1px solid #ccc;
+  color: #ccc;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.Y-content .dz-all li p {
+  font-size: 14px;
+  text-align: center;
+  margin: 5px auto;
+}
+.Y-content .dz-all li p em {
+  color: #fe5339;
+}
+.Y-content .dz-all li .link {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.Y-content .dz-all li .link a {
+  font-size: 13px;
+  text-align: center;
+}
+.Y-content .dz-all li b {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+  padding: 2px 3px;
+  border-radius: 0 5px 0 5px;
+  color: #fff;
+  background-color: #ff5544;
+}
+.Y-content .dz-all li .ccc_ {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+  padding: 2px 3px;
+  border-radius: 0 5px 0 5px;
+  color: #c19d5f;
+  background-color: #f5f0c6;
+}
+.Y-content .dz-all :nth-child(2n) div:nth-of-type(1) span {
+  border-color: #73ca62;
+}
+.Y-content .dz-all :nth-child(2n) .link a {
+  color: #73ca62;
+}
+.Y-content .dz-all :nth-child(4n) {
+  margin-right: 0;
+}
+.Y-content .dz-all :nth-child(4n) div:nth-of-type(1) span {
+  border-color: #fe5339;
+  color: #fe5339;
+}
+.Y-content .dz-all :nth-child(4n) div:nth-of-type(2) a {
+  color: #fe5339;
+}
+.more {
+  text-align: center;
+  margin: 20px auto;
+}
+.more a {
+  color: #fe5339;
+}
+.more a::before {
+  font-family: 'icomoon';
+  content: '\e931';
+  margin-right: 7px;
+}
+.no-more {
+  text-align: center;
+  margin: 20px auto;
+}
+.no-more a {
+  color: #97989d;
+}

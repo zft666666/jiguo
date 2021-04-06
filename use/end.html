@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>已结束</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/free.css">
+    <link rel="stylesheet" href="../public/header.css">
+</head>
+<body>
+<!-- 头部开始 -->
+<header>
+            <div class="nav wrapper">
+                <div class="logo">
+                    <img src="../images/img/logonew.png" alt="">
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">酷玩</a></li>
+                        <li><a href="#">导购</a></li>
+                        <li><a href="#">试用</a></li>
+                        <li><a href="#">报告</a></li>
+                    </ul>
+                </div>
+                <div class="register">
+                    <img src="../images/css/img/search.png" alt="">
+                    <a href="#">注册</a>
+                </div>
+            </div>
+</header>
+<!-- 头部结束 -->
+<h1 class="w Y-title">免费试用</h1>
+<div class="underline">
+    <div class=" w Y-tab clearfix">
+        <div class="Y-tab-left fl active"><a href="./dz-all.html">大众试用</a></div>
+        <div class="Y-tab-right fl"><a href="./division.html">体验师专享</a></div>
+    </div>
+</div>
+<!-- 申请中 -->
+<div class="free-list w clearfix">
+    <ul class="free-list_">
+        <li><a href="./dz-all.html">全部</a></li>
+        <li><a href="./dz-apply.html">申请中</a></li>
+        <li><a href="./trying.html">使用中</a></li>
+        <li><a href="./end.html" class="active">已结束</a></li>
+    </ul>
+</div>
+    <div class="Y-content">
+        <!-- 申请中 -->
+        <ul class="w dz-all clearfix" id="list">
+            <!-- <li>
+                <img src="../images/img/hot5.jpg" alt="">
+                <h4>巴慕达 The Toaster 烤面包机</h4>
+                <div>
+                    <span>2032</span>
+                    <span>20台</span>
+                </div>
+                <p><em>1392</em>申请</p>
+                <div class="link"><a href="#">报告数量：8</a></div>
+                <b>首发</b>
+            </li> -->
+        </ul>
+        <script id="li_tmpl" type="text/x-dot-template">
+            {{~it:value:index}}
+            <ul>
+                <li>
+                    <a href="./datail.html"><img src="{{=value.img}}" alt=""></a>
+                    <h4>{{=value.text}}
+                        <span></span>
+                    </h4>
+                    <div>
+                        <span>2032</span>
+                        <span>20台</span>
+                    </div>
+                    <p><em>1392</em>申请</p>
+                    <div><a href="#">报告数量</a></div>
+                    <b>首发</b>
+                </li>
+            </ul>
+            {{~}}
+        </script>
+        <div class="no-more">
+            <a href="#">没有更多啦~</a><br>
+            <!-- <img src="../images/css/img/loading-icon.gif" alt=""> -->
+        
+        </div>
+    </div>
+
+ <!-- 尾部开始 -->
+ <footer>
+    <div class="footer wrapper">
+        <div class="code">
+            <img src="../images/img/code.png" alt="">
+        </div>
+        <div class="logo2">
+            <img src="../images/img/logoImg.jpg" alt="">
+            <p>全球酷玩试用导购<br>平台酷·新奇·好玩·品质</p>
+            <p>微信添加“JguoJguo”<br>获取我们的服务</p>
+        </div>
+        <div class="ftr-list">
+            <dl>
+                <dt>免费试用</dt>
+                <dd><a href="#">试用流程</a> </dd>
+                <dd><a href="#">如何提高成功率</a></dd>
+            </dl>
+            <dl>
+                <dt>友情连接</dt>
+                <dd><a href="#">智东西</a></dd>
+                <dd><a href="#">搜狐IT</a></dd>
+                <dd><a href="#">搜狐数码</a></dd>
+                <dd><a href="#">凤凰数码</a></dd>
+                <dd><a href="#">泡泡网</a></dd>
+                <dd><a href="#">极客公园</a></dd>
+                <dd><a href="#">果库</a></dd>
+            </dl>
+            <dl>
+                <dt>购买攻略</dt>
+                <dd><a href="#">美亚海淘教程</a></dd>
+                <dd><a href="#">日亚海淘教程</a></dd>
+                <dd><a href="#">海淘转运教程</a></dd>
+                <dd><a href="#">kickstarter 众筹购买攻略</a></dd>
+                <dd><a href="#">indiegogo 众筹购买攻略</a></dd>
+            </dl>
+            <dl>
+                <dt>厂商合作</dt>
+                <dd><a href="#">关于极果</a></dd>
+                <dd><a href="#">联系我们</a></dd>
+                <dd><a href="#">商务合作：BD:jiguo.com</a></dd>
+                <dd><a href="#">关于极果: CEO:jiguo.com</a></dd>
+            </dl>
+        </div>
+    </div>
+    <div class="copyright">
+        2016 极果版权所有
+    </div>
+</footer>
+<!-- 尾部结束 -->    
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/doT.min.js"></script>
+<script src="../js/ajax.js"></script>
+<script src="../js/free.js"></script>
+</html>
