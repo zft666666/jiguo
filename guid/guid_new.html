@@ -1,0 +1,136 @@
+<!--
+ * @description: 
+ * @param: params
+ * @return: 
+ * @Author: zft
+ * @Date: 2021-04-02 10:13:46
+ * @Version: 1.0
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>极果-导购</title>
+    <link rel="stylesheet" href="../public/header.css">
+    <link rel="stylesheet" href="../css/guid_new.css">
+    <link rel="shortcut icon" href="../public/title.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="big-nav">
+        <div class="nav wrapper">
+            <div class="logo">
+                <img src="../images/img/logonew.png" alt="">
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="../index.html">首页</a></li>
+                    <li><a href="../play/play_new.html">酷玩</a></li>
+                    <li><a href="./guid_new.html">导购</a></li>
+                    <li><a href="#">试用</a></li>
+                    <li><a href="#">报告</a></li>
+                </ul>
+            </div>
+            <div class="register">
+             <img src="../images/css/img/search.png" alt="">
+             <a href="../regist.html">注册</a>
+            </div>
+        </div>
+        </div>
+        <div class="mainnav wrapper">
+             <h1>导购清单</h1>
+             <ul>
+                 <li><a href="guid_new.html">最新</a></li>
+                 <li><a href="guid_hot.html">最热</a></li>
+             </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="goods2 wrapper">
+            <ul id="list">
+                <!-- <li>
+                        <img src="./images/img/bg1.jpg" alt="" class="goods2-img">
+                        <div class="icon">
+                            <p>空气净化器里面学问多得惊呆你,你选对了吗？</p>
+                            <div class="icon1">
+                            <img src="./images/css/img/zan.png" alt="">3
+                            <img src="./images/css/img/reply.png" alt="">3
+                            <div>
+                        </div>
+                </li> -->
+                <script id="li_tmpl" type="text/x-dot-template">
+                    {{~it:value:index}}
+                        <li>
+                            <img src="{{=value.img}}" alt="" class="goods2-img">
+                            <div class="icon">
+                                <p>{{=value.text}}</p>
+                                <div class="icon1">
+                                <img src="../images/css/img/zan.png" alt="">3
+                                <img src="../images/css/img/reply.png" alt="">3
+                                <div>
+                            </div>
+                        </li>
+                    {{~}}
+                </script>
+            </ul>
+        </div>
+    </main>
+
+     <!-- 尾部 -->
+     <footer>
+        <div class="footer wrapper">
+             <div class="code">
+            <img src="../images/img/code.png" alt="">
+             </div>
+             <div class="logo2">
+            <img src="../images/img/logoImg.jpg" alt="">
+            <p>全球酷玩试用导购<br>平台酷·新奇·好玩·品质</p>
+            <p>微信添加“JguoJguo”<br>获取我们的服务</p>
+             </div>
+             <div class="ftr-list">  
+             <dl>
+                <dt><a href="../help.html">免费试用</a> </dt>
+                <dd><a href="#">试用流程</a> </dd>
+                <dd><a href="#">如何提高成功率</a></dd>
+            </dl>
+            <dl>
+                <dt>友情连接</dt>
+                <dd><a href="#">智东西</a></dd>
+                <dd><a href="#">搜狐IT</a></dd>
+                <dd><a href="#">搜狐数码</a></dd>
+                <dd><a href="#">凤凰数码</a></dd>
+                <dd><a href="#">泡泡网</a></dd>
+                <dd><a href="#">极客公园</a></dd>
+                <dd><a href="#">果库</a></dd>
+            </dl>
+            <dl>
+                <dt>购买攻略</dt>
+                <dd><a href="#">美亚海淘教程</a></dd>
+                <dd><a href="#">日亚海淘教程</a></dd>
+                <dd><a href="#">海淘转运教程</a></dd>
+                <dd><a href="#">kickstarter 众筹购买攻略</a></dd>
+                <dd><a href="#">indiegogo 众筹购买攻略</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="../about.html">厂商合作</a></dt>
+                <dd><a href="#">关于极果</a></dd>
+                <dd><a href="#">联系我们</a></dd>
+                <dd><a href="#">商务合作：BD:jiguo.com</a></dd>
+                <dd><a href="#">关于极果: CEO:jiguo.com</a></dd>
+            </dl>
+        </div>
+        </div>
+        <div class="copyright">
+            2016 极果版权所有
+        </div>
+        </footer>
+        <div class="gotop"><img src="../images/css/img/back.png" alt=""></div>
+</body>
+<script src="../js/ajax.js"></script>
+<script src="../js/doT.min.js"></script>
+<script src="../js/guid_new.js"></script>
+<script src="../public/header.js"></script>
+</html>

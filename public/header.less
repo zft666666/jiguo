@@ -5,6 +5,9 @@ body{
     padding: 0;
     margin: 0;
 }
+body{
+    overflow-x: hidden;
+}
 ul{
     list-style: none;
 }
@@ -15,50 +18,66 @@ a{
     width: 1000px;
     margin: auto;
 }
+
+.clearfix::after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
 /* 头部样式 */
-.nav{
-    overflow: hidden;
-    .logo{
-        float: left;
-        width: 266px;
-        height: 104px;
-    }
-    .list{
-        float: left;
-        li{
+.big-nav{
+    width: 100vw;
+    border-bottom: 1px solid #D9D9D9;
+    .nav{
+        overflow: hidden;
+        .logo{
             float: left;
-            margin-left: 60px;
-            line-height: 104px;
-            font-size: 20px;
-            a{
-                color: #3D464B;
-            &:hover{
+            width: 266px;
+            height: 104px;
+            img{
+                height: 80px;
+                margin-top: 10px;
+            }
+        }
+        .list{
+            float: left;
+            li{
+                float: left;
+                margin-left: 60px;
+                line-height: 104px;
+                font-size: 20px;
+                a{
+                    color: #3D464B;
+    
+                }
+            }
+        }
+        .register{
+            float: right;
+            img{
+                vertical-align: middle;
+            }
+            a{  
+                display: inline-block;
+                width: 60px;
+                height: 40px;
+                margin-top: 30px;
+                text-align: center;
+                line-height: 40px;
+                background-color: white;
+                border:1px solid #FE6541;
                 color: #FE6541;
+                outline: none;
+                margin-left: 20px;
+                border-radius: 5px;
             }
-            }
-        }
-    }
-    .register{
-        float: right;
-        img{
-            vertical-align: middle;
-        }
-        a{  
-            display: inline-block;
-            width: 60px;
-            height: 40px;
-            margin-top: 30px;
-            text-align: center;
-            line-height: 40px;
-            background-color: white;
-            border:1px solid #FE6541;
-            color: #FE6541;
-            outline: none;
-            margin-left: 20px;
-            border-radius: 5px;
         }
     }
 }
+
 
 
 /* 尾部样式 */
@@ -89,6 +108,9 @@ footer{
                 dt{
                     color: #fff;
                     margin-bottom: 30px;
+                    a{
+                        color: #fff;
+                    }
                 }
                 dd{
                     margin-bottom: 5px;
@@ -104,4 +126,33 @@ footer{
     margin-top: 80px;
     color: #969C90;
     }
+}
+
+/* 图片闪烁动画 */
+@keyframes transparency{
+    0%{
+        opacity: .2;
+    }
+    100%{
+        opacity: .5;
+    }
+}
+
+/* 返回顶部样式 */
+.gotop{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: #C1C1C1;
+    border-radius: 5px;
+    text-align: center;
+}
+
+//向下加载更多
+.clicks{
+    text-align: center;
+    color: coral;
 }

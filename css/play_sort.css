@@ -1,0 +1,114 @@
+.nav .list li:nth-of-type(2) a {
+  color: #FE6541;
+}
+.mainnav {
+  padding-bottom: 5px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.mainnav li {
+  float: left;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.mainnav li a {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  color: #A5A1AC;
+}
+.mainnav li:hover a {
+  color: #F9562D;
+}
+.mainnav li:nth-of-type(3) a {
+  color: #F9562D;
+  border-bottom: 3px solid #F9562D;
+}
+main {
+  background-color: #F7F7F7;
+  overflow: hidden;
+}
+main .main-list {
+  position: relative;
+  padding-top: 20px;
+  background-color: #fff;
+  margin-top: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+main .main-list .orangered {
+  position: absolute;
+  top: 17px;
+  left: 0;
+  width: 10px;
+  height: 30px;
+  background-color: orangered;
+}
+main .main-list h4 {
+  text-indent: 2.5em;
+}
+main .main-list ul {
+  overflow: hidden;
+}
+main .main-list ul li {
+  float: left;
+  width: 118px;
+  font-size: 12px;
+  margin-left: 33px;
+  padding: 10px;
+  text-align: center;
+}
+main dl {
+  width: 920px;
+  padding: 10px 40px;
+  border-top: 1px dashed #A5A1AC;
+  overflow: hidden;
+}
+main dl dd {
+  float: left;
+  width: 153px;
+  color: #A4AF9F;
+}
+main .main-list2 {
+  position: relative;
+  padding-top: 20px;
+  background-color: #fff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+main .main-list2 .orangered {
+  position: absolute;
+  top: 17px;
+  left: 0;
+  width: 10px;
+  height: 30px;
+  background-color: orangered;
+}
+main .main-list2 h4 {
+  text-indent: 2.5em;
+}
+main .main-list2 ul {
+  overflow: hidden;
+}
+main .main-list2 ul li {
+  float: left;
+  margin-left: 33px;
+  padding: 10px;
+  text-align: center;
+}
+main dl {
+  width: 920px;
+  padding: 20px 40px;
+  border-top: 1px dashed #A5A1AC;
+  overflow: hidden;
+}
+main dl dd {
+  float: left;
+  width: 153px;
+  color: #A4AF9F;
+}
