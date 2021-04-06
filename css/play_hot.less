@@ -1,0 +1,144 @@
+.nav{
+    .list{
+        li:nth-of-type(2){
+            a{
+                color: #FE6541;
+            }
+        }
+    }
+}
+
+
+.mainnav{
+    padding-bottom: 5px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    overflow: hidden;
+    li{
+        float: left;
+        margin-top: 50px;
+        margin-left: 100px;
+        a{
+            display: inline-block;
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            color: #A5A1AC;  
+        } 
+    }
+    li:nth-of-type(2){
+        a{
+            color: #F9562D;
+            border-bottom: 3px solid #F9562D;
+        }
+    }
+}
+
+
+main{
+    
+    width: 100vw;
+    background-color: #F7F7F7;
+    .main{
+       padding-top: 20px;
+       overflow: hidden;
+       line-height: 20px;
+       li{
+           position: relative;
+           float: left;
+           margin-right: 90px;
+           margin-bottom: 30px;
+           width: 180px;
+           height: 250px;
+           border: 1px solid #c4bfbf;
+           border-radius: 10px;
+           box-shadow: 0px 3px rgba(0, 0, 0, .1);
+               color: #000;
+                &:hover{
+                    transform: translateY(-2%);
+                }
+                &:hover .goods-img{
+                    animation: transparency linear 1s infinite;
+                    }
+                .goods-img{
+                   width: 181px;
+                   vertical-align: top;
+                   border-radius: 10px 10px 0 0;
+                     
+               }
+               .icon{
+                   
+                   padding: 10px;
+                   p{
+                       font-size: 12px;
+                       margin-top: 10px;
+                   }
+                   .icon1{
+                       position: absolute;
+                       bottom: 0;
+                       margin-top: 20px;
+                       p{
+                        font-size: 12px;
+                       }
+                       span{
+                           color: red;
+                           margin-top: 20px;
+                       }
+                       .goods-img2{
+                           float: right;
+                           margin-left: 60px;
+                        }
+                   }
+               }
+       }
+       li:nth-of-type(4n){
+           margin-right: 0;
+       }
+   }
+}
+
+/* 尾部样式 */
+
+footer{
+    width: 100vw;
+    height: 350px;
+    padding: 50px 0;
+    background-color: #505050;
+    .footer{
+        overflow: hidden;
+        .code{
+            float: left;
+        }
+        .logo2{
+            float: left;
+            margin-left: 20px;
+            p{
+                color: #969C90;
+                margin-top: 10px;
+            }
+        }
+        .ftr-list{
+            float: left;
+            dl{
+                float: left;
+                margin-left: 20px;
+                dt{
+                    color: #fff;
+                    margin-bottom: 30px;
+                }
+                dd{
+                    margin-bottom: 5px;
+                    a{
+                        color: #969C90;
+                    }
+                }
+            }
+        }
+    }
+    .copyright{
+    text-align: center;
+    margin-top: 80px;
+    color: #969C90;
+    }
+}

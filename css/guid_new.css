@@ -1,0 +1,120 @@
+.nav .list li:nth-of-type(3) a {
+  color: #FE6541;
+}
+.mainnav {
+  padding-bottom: 5px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.mainnav li {
+  float: left;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.mainnav li a {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  color: #A5A1AC;
+}
+.mainnav li:first-of-type a {
+  color: #F9562D;
+  border-bottom: 3px solid #F9562D;
+}
+main {
+  padding: 40px;
+  width: 100vw;
+  background-color: #F7F7F7;
+  overflow: hidden;
+}
+main .goods2 {
+  line-height: 20px;
+}
+main .goods2 li {
+  position: relative;
+  float: left;
+  margin-right: 90px;
+  margin-bottom: 30px;
+  width: 180px;
+  height: 223px;
+  border: 1px solid #c4bfbf;
+  border-radius: 10px;
+  color: #000;
+  box-shadow: 0px 3px rgba(0, 0, 0, 0.1);
+}
+main .goods2 li:hover {
+  transform: translateY(-2%);
+}
+main .goods2 li:hover .goods2-img {
+  animation: transparency linear 1s infinite;
+}
+main .goods2 li .goods2-img {
+  width: 181px;
+  vertical-align: top;
+  border-radius: 10px 10px 0 0;
+}
+main .goods2 li .icon {
+  padding: 10px;
+}
+main .goods2 li .icon p {
+  font-size: 12px;
+}
+main .goods2 li .icon .icon1 {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  float: right;
+  color: gray;
+  line-height: 20px;
+  margin-top: 15px;
+  font-size: 10px;
+}
+main .goods2 li:nth-of-type(4n) {
+  margin-right: 0;
+}
+/* 尾部样式 */
+footer {
+  width: 100vw;
+  height: 350px;
+  padding: 50px 0;
+  background-color: #505050;
+}
+footer .footer {
+  overflow: hidden;
+}
+footer .footer .code {
+  float: left;
+}
+footer .footer .logo2 {
+  float: left;
+  margin-left: 20px;
+}
+footer .footer .logo2 p {
+  color: #969C90;
+  margin-top: 10px;
+}
+footer .footer .ftr-list {
+  float: left;
+}
+footer .footer .ftr-list dl {
+  float: left;
+  margin-left: 20px;
+}
+footer .footer .ftr-list dl dt {
+  color: #fff;
+  margin-bottom: 30px;
+}
+footer .footer .ftr-list dl dd {
+  margin-bottom: 5px;
+}
+footer .footer .ftr-list dl dd a {
+  color: #969C90;
+}
+footer .copyright {
+  text-align: center;
+  margin-top: 80px;
+  color: #969C90;
+}
