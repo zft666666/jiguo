@@ -1,3 +1,16 @@
+@keyframes fangda {
+    0%{
+        // scale-Z: 50px;
+        transform: rotateX(60deg)
+    }
+    100%{
+        // scale-Z: 0px;
+        transform: rotateX(120deg)
+    }
+}
+
+
+
 .box-top {
     width: 100%;
     height: 170px;
@@ -67,12 +80,17 @@
                     border-radius: 10px;
                     overflow: hidden;
                     margin-bottom: 20px;
-
                     img {
                         // width: 100%;
                         width: 700px;
                         height: 410px;
+                        transition: all .5s;
+
                     }
+                    :hover{
+                        transform: scale(1.5);
+                    }
+                    
 
                     .showdow {
                         position: absolute;
@@ -204,13 +222,17 @@
                     overflow: hidden;
                     margin-top: 15px;
                     margin-bottom: 20px;
-
+                    background-color: slateblue;
+                    
                     img {
                         // width: 700px;
                         width: 100%;
                         height: 410px;
+                        transition: all .5s;
                     }
-
+                    img:hover{
+                        transform: scale(1.5);
+                    }
                     .showdow {
                         position: absolute;
                         bottom: 0;
@@ -372,8 +394,10 @@
 
             img {
                 width: 270px;
+                transition: all .5s;
+               
             }
-
+                                 
             ul {
                 margin-top: 12px;
                 font-weight: bold;
