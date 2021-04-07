@@ -7,19 +7,6 @@
  * @Version: 1.0
  */
 // 大众试用
-// $(function(){
-//     ajax({
-//         type: 'get',
-//         url: 'http://192.168.31.254:3000/useing/public',
-//         success: function (result) {
-//             console.log(result)
-//             // let newaraay=result.slice(0,2)
-//             // let array2=[...newaraay[0],...newaraay[1]]
-//             var tmpText = doT.template(document.getElementById('li_tmpl').innerText);
-//             document.getElementById("list").innerHTML = tmpText(result);
-//         }
-//     });
-// })
 
 ajax({
     type: 'get',
