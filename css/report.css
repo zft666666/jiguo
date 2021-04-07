@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+.nav .list li:nth-of-type(5) a {
+  color: #FE6541;
+=======
 @keyframes fangda {
   0% {
     transform: rotateX(60deg);
@@ -5,6 +9,7 @@
   100% {
     transform: rotateX(120deg);
   }
+>>>>>>> 90e2bca121a1ca8e26153a5c0a5014a3637bb765
 }
 .box-top {
   width: 100%;

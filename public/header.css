@@ -58,6 +58,8 @@ a {
   float: right;
 }
 .big-nav .nav .register img {
+  float: left;
+  margin-top: 40px;
   vertical-align: middle;
 }
 .big-nav .nav .register a {
@@ -73,6 +75,17 @@ a {
   outline: none;
   margin-left: 20px;
   border-radius: 5px;
+}
+.big-nav .nav .register input {
+  float: left;
+  width: 100px;
+  margin-top: 37px;
+  padding: 5px;
+  outline: none;
+  text-indent: 1em;
+  border-radius: 5px;
+  font-size: 8px;
+  display: none;
 }
 /* 尾部样式 */
 footer {
@@ -137,7 +150,7 @@ footer .copyright {
   width: 40px;
   height: 40px;
   padding: 10px;
-  background-color: #E7E7E7;
+  background-color: #C1C1C1;
   border-radius: 5px;
   text-align: center;
   line-height: 40px;

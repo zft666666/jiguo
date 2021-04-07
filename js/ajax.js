@@ -3,12 +3,17 @@
  * @param: params
  * @return: 
 <<<<<<< HEAD
+ * @Author: zft
+ * @Date: 2021-04-06 21:29:46
+=======
+<<<<<<< HEAD
  * @Author: Yff
  * @Date: 2021-04-04 15:54:30
 =======
  * @Author: zft
  * @Date: 2021-04-06 21:29:46
 >>>>>>> a675c5632aa9927e4c0584f94dc78489b32e5647
+>>>>>>> 6b21bcb82cd4cd75fd8fecc799df1907b7dbeb3f
  * @Version: 1.0
  */
 function ajax (options) {
