@@ -61,6 +61,15 @@ main .main-list ul li {
   padding: 10px;
   text-align: center;
 }
+main .main-list ul li img {
+  transition: all 1s;
+}
+main .main-list ul li img:hover {
+  transform: rotate(360deg);
+}
+main .main-list ul li p:hover {
+  color: #FE6541;
+}
 main dl {
   width: 920px;
   padding: 10px 40px;
@@ -71,6 +80,9 @@ main dl dd {
   float: left;
   width: 153px;
   color: #A4AF9F;
+}
+main dl dd:hover {
+  color: #FE6541;
 }
 main .main-list2 {
   position: relative;
@@ -101,6 +113,15 @@ main .main-list2 ul li {
   padding: 10px;
   text-align: center;
 }
+main .main-list2 ul li img {
+  transition: all 1s;
+}
+main .main-list2 ul li img:hover {
+  transform: rotate(360deg);
+}
+main .main-list2 ul li:hover {
+  color: #FE6541;
+}
 main dl {
   width: 920px;
   padding: 20px 40px;
@@ -111,4 +132,7 @@ main dl dd {
   float: left;
   width: 153px;
   color: #A4AF9F;
+}
+main dl dd:hover {
+  color: #FE6541;
 }

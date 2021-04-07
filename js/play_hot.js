@@ -8,7 +8,6 @@
  */
 document.querySelector(".clicks").onclick=function(){
      setTimeout(function(){
-        let html = 
         ajax({
             type: 'get',
             url: 'http://192.168.31.254:3000/play/hot',
@@ -19,9 +18,8 @@ document.querySelector(".clicks").onclick=function(){
                 console.log(arry)
                 console.log(arry2)
                 var tmpText = doT.template(document.getElementById('li_tmpl').innerText);
-                document.getElementById("list").innerHTML = tmpText(arry2)
+                document.getElementById("list").innerHTML = tmpText(arry2);
             }
         });
      },1000)
-
 }
