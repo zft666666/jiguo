@@ -58,6 +58,7 @@
   margin-right: 33px ;
   margin-bottom: 33px;
   text-align: center;
+  transition: all 0.5s;
 }
 .Y-content .dz-all li img {
   width: 100%;
@@ -116,6 +117,9 @@
   border-radius: 0 5px 0 5px;
   color: #c19d5f;
   background-color: #f5f0c6;
+}
+.Y-content .dz-all li:hover {
+  box-shadow: 0px 0px 10px #000000;
 }
 .Y-content .dz-all :nth-child(2n) div:nth-of-type(1) span {
   border-color: #73ca62;

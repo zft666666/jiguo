@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 .nav .list li:nth-of-type(5) a {
   color: #FE6541;
+=======
+@keyframes fangda {
+  0% {
+    transform: rotateX(60deg);
+  }
+  100% {
+    transform: rotateX(120deg);
+  }
+>>>>>>> 90e2bca121a1ca8e26153a5c0a5014a3637bb765
 }
 .box-top {
   width: 100%;
@@ -64,6 +74,10 @@
 .box .center .report-center-left .first .first-one img {
   width: 700px;
   height: 410px;
+  transition: all 0.5s;
+}
+.box .center .report-center-left .first .first-one :hover {
+  transform: scale(1.5);
 }
 .box .center .report-center-left .first .first-one .showdow {
   position: absolute;
@@ -169,10 +183,15 @@
   overflow: hidden;
   margin-top: 15px;
   margin-bottom: 20px;
+  background-color: slateblue;
 }
 .box .center .report-center-left .second .first-one img {
   width: 100%;
   height: 410px;
+  transition: all 0.5s;
+}
+.box .center .report-center-left .second .first-one img:hover {
+  transform: scale(1.5);
 }
 .box .center .report-center-left .second .first-one .showdow {
   position: absolute;
@@ -296,6 +315,7 @@
 }
 .box .center .report-center-right img {
   width: 270px;
+  transition: all 0.5s;
 }
 .box .center .report-center-right ul {
   margin-top: 12px;
