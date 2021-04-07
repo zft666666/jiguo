@@ -8,6 +8,7 @@
  */
 document.querySelector(".clicks").onclick=function(){
      setTimeout(function(){
+        let html = 
         ajax({
             type: 'get',
             url: 'http://192.168.31.254:3000/play/hot',
