@@ -39,19 +39,19 @@ $(function () {
                             <div class="showdow-top">${val.text}</div>
                             <div class="showdow-bottom">
                                 <div class="jlt1">
-                                    <img src="./img/icon.png" alt="">
+                                    <img src="../images" alt="">
 
                                 </div>
                                 <p class="showdow-bottom-p">${val.uName}</p>
                                 <span class="showdow-bottom-span">${val.endTime}</span>
                                 <div class="zan">
-                                    <img src="./img/icon.png" alt="">
+                                    <img src="../images/css/img/zan.png" alt="">
                                 </div>
                                 <span class="zan-span">
                                     3
                                 </span>
                                 <div class="liuyan">
-                                    <img src="./img/reply.png" alt="">
+                                    <img src="../images/css/img/reply.png" alt="">
                                 </div>
                                 <span class="liuyan-span">
                                     3
@@ -73,7 +73,7 @@ $(function () {
         $(".t_rq_jz_img2").css("display", "block");
         setTimeout(function () {
             console.log(2)
-            $.get("http://192.168.31.254:3000/report/new", function (data) {
+            $.get("http://192.168.31.254:3000/report/hot", function (data) {
                 console.log(data);
                 arr = data;
                 arr.forEach(function (val) {
@@ -90,13 +90,13 @@ $(function () {
                                 <p class="showdow-bottom-p">${val.uName}</p>
                                 <span class="showdow-bottom-span">${val.endTime}</span>
                                 <div class="zan">
-                                    <img src="./img/icon.png" alt="">
+                                    <img src="../images/css/img/zan.png" alt="">
                                 </div>
                                 <span class="zan-span">
                                     3
                                 </span>
                                 <div class="liuyan">
-                                    <img src="./img/reply.png" alt="">
+                                    <img src="../images/css/img/reply.png" alt="">
                                 </div>
                                 <span class="liuyan-span">
                                     3
